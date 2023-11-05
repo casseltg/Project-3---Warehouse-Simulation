@@ -1,0 +1,5 @@
+C:\Users\depew\Source\Repos\Project-3---Warehouse-Simulation\obj\Debug\net6.0\Project 3 - Warehouse Simulation.csproj.AssemblyReference.cache
+C:\Users\depew\Source\Repos\Project-3---Warehouse-Simulation\obj\Debug\net6.0\Project 3 - Warehouse Simulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\depew\Source\Repos\Project-3---Warehouse-Simulation\obj\Debug\net6.0\Project 3 - Warehouse Simulation.AssemblyInfoInputs.cache
+C:\Users\depew\Source\Repos\Project-3---Warehouse-Simulation\obj\Debug\net6.0\Project 3 - Warehouse Simulation.AssemblyInfo.cs
+C:\Users\depew\Source\Repos\Project-3---Warehouse-Simulation\obj\Debug\net6.0\Project 3 - Warehouse Simulation.csproj.CoreCompileInputs.cache

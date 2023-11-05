@@ -18,7 +18,7 @@ namespace Project_3___Warehouse_Simulation
         public Dock()
         {
             Id = string.Empty;
-            line = new Queue<Truck>;
+            line = new Queue<Truck>() //The () were missing on these;
             TotalSales = 0;
             TotalCrates = 0;
             TimeInUse = 0;
@@ -28,7 +28,7 @@ namespace Project_3___Warehouse_Simulation
         public Dock(string id)
         {
             Id = id;
-            line = new Queue<Truck>;
+            line = new Queue<Truck>();
             TotalSales = 0;
             TotalCrates = 0;
             TimeInUse = 0;
