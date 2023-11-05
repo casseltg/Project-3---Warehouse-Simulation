@@ -31,6 +31,7 @@ namespace Project_3___Warehouse_Simulation
 
         public void Run()
         {
+            //A loaded truck arrives at the Warehouse with a random # of cargo crates in a random time interval between increments of 1 to 48.
             Random randy = new Random();
             for (int i = 1; i <= 48; i++)
             {
@@ -39,6 +40,17 @@ namespace Project_3___Warehouse_Simulation
                     //Truck arrives
                 }
             }
+
+        //Once a truck arrives, it is sent to the gate entrance.
+        
+        //Once at the gate entrance, a truck is added to a loading dock once every time increment.
+        
+        //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
+        
+        //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
+        //a.    One-time increment to unload the last item off the current truck
+        //b.    Next-time increment to unload the first item off next truck.
+        
 
         }
 }
