@@ -35,7 +35,7 @@ namespace Project_3___Warehouse_Simulation
             int timeIntervalsPassed = 0;
             
             Random randy = new Random();
-            for (timeIntervalsPassed = 0; i <= 48; i++)
+            for (timeIntervalsPassed = 0; timeIntervalsPassed <= 48; timeIntervalsPassed++)
             {
                 if (randy.Next(1) = 1)
                 {
