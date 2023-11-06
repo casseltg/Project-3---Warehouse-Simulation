@@ -9,9 +9,9 @@ namespace Project_3___Warehouse_Simulation
 {
     internal class Warehouse
     {
-        private List<Dock> Docks { get; set; }
+        public List<Dock> Docks { get; private set; }
 
-        private Queue<Truck> Entrance { get; set; }
+        public Queue<Truck> Entrance { get; private set; }
 
         public Warehouse()
         {
