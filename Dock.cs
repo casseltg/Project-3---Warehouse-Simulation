@@ -14,6 +14,7 @@ namespace Project_3___Warehouse_Simulation
         public int TotalCrates { get; private set; }
         public int TimeInUse { get; private set; }
         public int TimeNotInUse {  get; private set; }
+        public Truck truckToUnload;
 
         public Dock()
         {
@@ -43,6 +44,11 @@ namespace Project_3___Warehouse_Simulation
         public Truck SendOff()
         {
             return line.Dequeue();
+        }
+
+        public void UnloadCrate()
+        {
+            TotalSales += truckToUnload.UnloadTruck().Price;
         }
 
     }
