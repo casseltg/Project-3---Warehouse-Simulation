@@ -35,12 +35,12 @@ namespace Project_3___Warehouse_Simulation
             TimeNotInUse = 0;
         }
 
-        void JoinLine (Truck truck)
+        public void JoinLine (Truck truck)
         {
             line.Enqueue(truck);
         }
         
-        Truck SendOff()
+        public Truck SendOff()
         {
             return line.Dequeue();
         }
