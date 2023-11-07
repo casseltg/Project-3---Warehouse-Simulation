@@ -41,13 +41,29 @@ namespace Project_3___Warehouse_Simulation
                 {
                     //Truck arrives
                 }
-            
 
-        //Once a truck arrives, it is sent to the gate entrance.
-        
-        //Once at the gate entrance, a truck is added to a loading dock once every time increment.
-        
-        //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
+
+                //Once a truck arrives, it is sent to the gate entrance.
+
+                //Once at the gate entrance, a truck is added to a loading dock once every time increment.
+                int smallestQueueCount = Docks[0].line.Count;
+                int smallestQueueIndex = 0;
+                for (int i = 1; i < Docks.Count; i++)
+                {
+                    if (Docks[i].line.Count < smallestQueueCount)
+                    {
+                        smallestQueueCount = Docks[i].line.Count;
+                        smallestQueueIndex = i;
+                    }
+                }
+                Docks[smallestQueueIndex].line.Add(Entrance.Dequeue());
+              
+                //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
+                foreach (Dock dock in Docks)
+                {
+                    //Should cause an exception if the truck is empty. Will fix if it works normally
+                    dock.UnloadCrate();
+                }
         
         //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
         //a.    One-time increment to unload the last item off the current truck
