@@ -63,11 +63,11 @@ namespace Project_3___Warehouse_Simulation
                 {
                     //Should cause an exception if the truck is empty. Will fix if it works normally
                     dock.UnloadCrate();
-                }
-        
-        //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
+
+                            //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
         //a.    One-time increment to unload the last item off the current truck
         //b.    Next-time increment to unload the first item off next truck.
+                }
             }
 
         }
