@@ -32,14 +32,22 @@ namespace Project_3___Warehouse_Simulation
         public void Run()
         {
             //A loaded truck arrives at the Warehouse with a random # of cargo crates in a random time interval between increments of 1 to 48.
-            int timeIntervalsPassed = 0;
-            
+
             Random randy = new Random();
-            for (timeIntervalsPassed = 0; timeIntervalsPassed <= 48; timeIntervalsPassed++)
+            for (int timeIntervalsPassed = 1; timeIntervalsPassed <= 48; timeIntervalsPassed++)
             {
-                if (randy.Next(1) = 1)
+                int probabilityTruckArrives;
+                if (timeIntervalsPassed <= 24)
                 {
-                    //Truck arrives
+                    probabilityTruckArrives = randy.Next(1, timeIntervalsPassed + 1);
+                }
+                else
+                {
+                    probabilityTruckArrives = randy.Next(1, 50 - timeIntervalsPassed);
+                }
+                if (randy.Next(24) <= probabilityTruckArrives)
+                {
+                    Entrance.Enqueue(new Truck());
                 }
 
 

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\grays\\.nuget\\packages\\": {}
+    "C:\\Users\\depew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grays\\source\\repos\\Project 3 - Warehouse Simulation\\Project 3 - Warehouse Simulation\\Project 3 - Warehouse Simulation.csproj",
+      "projectUniqueName": "C:\\Users\\depew\\source\\repos\\Project-3---Warehouse-Simulation\\Project 3 - Warehouse Simulation.csproj",
       "projectName": "Project 3 - Warehouse Simulation",
-      "projectPath": "C:\\Users\\grays\\source\\repos\\Project 3 - Warehouse Simulation\\Project 3 - Warehouse Simulation\\Project 3 - Warehouse Simulation.csproj",
-      "packagesPath": "C:\\Users\\grays\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grays\\source\\repos\\Project 3 - Warehouse Simulation\\Project 3 - Warehouse Simulation\\obj\\",
+      "projectPath": "C:\\Users\\depew\\source\\repos\\Project-3---Warehouse-Simulation\\Project 3 - Warehouse Simulation.csproj",
+      "packagesPath": "C:\\Users\\depew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\depew\\source\\repos\\Project-3---Warehouse-Simulation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\grays\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\depew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -18,7 +18,6 @@ namespace Project_3___Warehouse_Simulation
 
         public Crate UnloadTruck()
         {
-            Trailer.Pop();
             return Trailer.Pop();
         }    
     }
