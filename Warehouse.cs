@@ -77,8 +77,10 @@ namespace Project_3___Warehouse_Simulation
                     Truck firstTruck = new Truck; 
                     Truck secondTruck = new Truck; 
 
-                    firstTruck.
+                    firstTruck.UnloadTruck(); 
         //b.    Next-time increment to unload the first item off next truck.
+
+                    secondTruck.UnloadTruck(); 
                 }
             }
 
