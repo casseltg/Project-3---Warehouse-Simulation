@@ -8,7 +8,7 @@ namespace Project_3___Warehouse_Simulation
 {
     internal class Crate
     {
-        string Id; {set; get;}     
+        string Id; {get; set;}     
         double Price;
     }
 }
