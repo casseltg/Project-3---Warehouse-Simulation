@@ -15,10 +15,24 @@ namespace Project_3___Warehouse_Simulation
         {
             Trailer.Push(crate);
         }
-
+  //The function below is to unload a truck. 
+  //It checks first to make sure there is data there before removing a crate
+  //returns item removed if there is an item to remove
+  //returns empty trailer if there is no item to remove 
         public Crate UnloadTruck()
         {
-            return Trailer.Pop();
-        }    
+            
+            If(Trailer.Count != 0)
+            {
+                Trailer.Pop(); 
+                return Trailer.Pop(); 
+            }
+            return Trailer;
+        }  
+    //View
+        public Crate View()
+        {
+            
+        }
     }
 }
