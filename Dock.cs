@@ -36,20 +36,24 @@ namespace Project_3___Warehouse_Simulation
             TimeNotInUse = 0;
         }
 
+        ///
+        /// <summary>
+        /// Queues a truck in the line to use the dock
+        /// </summary>
+        /// <param name="truck">The truck to be queued</param>
         public void JoinLine (Truck truck)
         {
             line.Enqueue(truck);
         }
         
+        ///
+        /// <summary>
+        /// Method for offloading truck from queue into active use in the dock
+        /// </summary>
+        /// <returns>A truck to be unloaded</returns>
         public Truck SendOff()
         {
             return line.Dequeue();
         }
-
-        public void UnloadCrate()
-        {
-            TotalSales += truckToUnload.UnloadTruck().Price;
-        }
-
     }
 }

@@ -28,7 +28,11 @@ namespace Project_3___Warehouse_Simulation
             }
             Entrance = new Queue<Truck>();
         }
-
+        
+        ///
+        /// <summary>
+        /// Runs warehouse simulation
+        /// </summary>
         public void Run()
         {
             //A loaded truck arrives at the Warehouse with a random # of cargo crates in a random time interval between increments of 1 to 48.
@@ -69,16 +73,15 @@ namespace Project_3___Warehouse_Simulation
                 //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
                 foreach (Dock dock in Docks)
                 {
-                    //Should cause an exception if the truck is empty. Will fix if it works normally
-                    dock.UnloadCrate();
+                    dock.TotalSales += dock.truckToUnload.UnloadTruck().Price;
 
-                            //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
-        //a.    One-time increment to unload the last item off the current truck
+                    //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
+                    //a.    One-time increment to unload the last item off the current truck
                     Truck firstTruck = new Truck; 
                     Truck secondTruck = new Truck; 
 
                     firstTruck.UnloadTruck(); 
-        //b.    Next-time increment to unload the first item off next truck.
+                     //b.    Next-time increment to unload the first item off next truck.
 
                     secondTruck.UnloadTruck(); 
                 }

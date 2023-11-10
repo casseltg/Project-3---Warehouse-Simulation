@@ -15,10 +15,12 @@ namespace Project_3___Warehouse_Simulation
         {
             Trailer.Push(crate);
         }
-  //The method below is to unload a truck. 
-  //It checks first to make sure there is data there before removing a crate
-  //returns item removed if there is an item to remove
-  //returns empty trailer if there is no item to remove 
+
+        ///
+        /// <summary>
+        /// Unloads a crate from the truck object
+        /// </summary>
+        /// <returns>The crate being removed</returns>
         public Crate UnloadTruck()
         {
             If(Trailer.Count != 0)
@@ -28,7 +30,11 @@ namespace Project_3___Warehouse_Simulation
             }
             return Trailer;
         }  
-    //The method below views crates in trailer
+
+        /// <summary>
+        /// Checks that the truck trailer contains crates
+        /// </summary>
+        /// <returns></returns>
         public Crate ViewCratesInTrailer()
         {
             If(Trailer.Count != 0)
