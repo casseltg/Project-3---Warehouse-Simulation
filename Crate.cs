@@ -8,7 +8,14 @@ namespace Project_3___Warehouse_Simulation
 {
     internal class Crate
     {
-        string ID {get; private set;}     
-        double Price {get; private set;}
+        public string ID {get; private set;}     
+        public double Price {get; private set;}
+
+        public Crate()
+        {
+            Random randy = new Random();
+            ID = randy.Next(1000, 10000).ToString();
+            Price = randy.Next(100, 1000);
+        }
     }
 }

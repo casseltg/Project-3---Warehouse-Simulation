@@ -8,9 +8,43 @@ namespace Project_3___Warehouse_Simulation
 {
     internal class Truck
     {
-        string driver;
-        string deliveryCompany;
-        Stack<Crate> Trailer = new Stack<Crate>();
+        public string Driver { get; private set; }
+        public string DeliveryCompany { get; private set; }
+        public Stack<Crate> Trailer;
+
+        public Truck()
+        {
+            List<string> driverNames = new List<string>(10)
+            {
+                "Bob",
+                "Steve",
+                "Cassandra",
+                "Jebediah",
+                "Gregor",
+                "Landry",
+                "Vlorflumaax the Destroyer",
+                "Bob's Cousin",
+                "Larry",
+                "Lowry"
+            };
+            Random randy = new Random();
+            Driver = driverNames[randy.Next(10)];
+            List<string> deliveryCompany = new List<string>(5)
+            {
+                "BUPS",
+                "XPORT",
+                "BreadEx",
+                "EHL",
+                "GillTrans"
+            };
+            DeliveryCompany = deliveryCompany[randy.Next(5)];
+            Trailer = new Stack<Crate>(randy.Next(1, 10));
+            for (int i = 0; i < Trailer.Count; i++)
+            {
+                Trailer.Push(new Crate());
+            }
+        }
+
         public void LoadTruck(Crate crate)
         {
             Trailer.Push(crate);
@@ -23,12 +57,7 @@ namespace Project_3___Warehouse_Simulation
         /// <returns>The crate being removed</returns>
         public Crate UnloadTruck()
         {
-            If(Trailer.Count != 0)
-            {
-                Trailer.Pop(); 
-                return Trailer.Pop(); 
-            }
-            return Trailer;
+            return Trailer.Pop();
         }  
 
         /// <summary>
@@ -37,12 +66,7 @@ namespace Project_3___Warehouse_Simulation
         /// <returns></returns>
         public Crate ViewCratesInTrailer()
         {
-            If(Trailer.Count != 0)
-            {
-                Trailer.Peek(); 
-                return Trailer.Peek(); 
-            }    
-            return Trailer; 
+            return Trailer.Peek(); 
         }
     }
 }

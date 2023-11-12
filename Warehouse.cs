@@ -21,14 +21,15 @@ namespace Project_3___Warehouse_Simulation
 
         public Warehouse(int numOfDocks)
         {
+            Docks = new List<Dock>();
             for (int i = 0; i < numOfDocks; i++)
             {
-                Dock dock = new Dock(i);
-                this.Docks.Add(dock);
+                Dock dock = new Dock($"{i}");
+                Docks.Add(dock);
             }
             Entrance = new Queue<Truck>();
         }
-        
+
         ///
         /// <summary>
         /// Runs warehouse simulation
@@ -58,37 +59,41 @@ namespace Project_3___Warehouse_Simulation
                 //Once a truck arrives, it is sent to the gate entrance.
 
                 //Once at the gate entrance, a truck is added to a loading dock once every time increment.
-                int smallestQueueCount = Docks[0].line.Count;
-                int smallestQueueIndex = 0;
-                for (int i = 1; i < Docks.Count; i++)
+                if (Entrance.Count > 0)
                 {
-                    if (Docks[i].line.Count < smallestQueueCount)
+                    int smallestQueueCount = Docks[0].line.Count;
+                    int smallestQueueIndex = 0;
+                    for (int i = 1; i < Docks.Count; i++)
                     {
-                        smallestQueueCount = Docks[i].line.Count;
-                        smallestQueueIndex = i;
+                        if (Docks[i].line.Count < smallestQueueCount)
+                        {
+                            smallestQueueCount = Docks[i].line.Count;
+                            smallestQueueIndex = i;
+                        }
+                    }
+
+                    Docks[smallestQueueIndex].JoinLine(Entrance.Dequeue());
+
+                    //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
+                    Truck result;
+                    foreach (Dock dock in Docks)
+                    {
+                        if (dock.truckToUnload.Trailer.Count != 0)
+                        {
+                            dock.TotalSales += dock.truckToUnload.UnloadTruck().Price;
+                        }
+                        else if (dock.line.TryPeek(out result))
+                        {
+                            dock.truckToUnload = dock.SendOff();
+                        }
+
+
+                        //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
+                        //a.    One-time increment to unload the last item off the current truck
+                        //b.    Next-time increment to unload the first item off next truck
                     }
                 }
-                Docks[smallestQueueIndex].line.Add(Entrance.Dequeue());
-              
-                //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
-                foreach (Dock dock in Docks)
-                {
-                    dock.TotalSales += dock.truckToUnload.UnloadTruck().Price;
-
-                    //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
-                    //a.    One-time increment to unload the last item off the current truck
-                    //b.    Next-time increment to unload the first item off next tru
-                    foreach (Truck in dock.Line)
-                    {
-                        foreach (crate in Truck.Trailer)
-                          {
-                              Truck.Trailer.UnloadTruck();//unload 1 crate at a time from the truck trailer
-                              unloadTruckCount++;//Counting each item removed
-                          }
-                      totalNumTruck++; //Counting each truck
-                    } 
-                }
-            }
-
+            }    
         }
+    }
 }

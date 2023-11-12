@@ -9,8 +9,8 @@ namespace Project_3___Warehouse_Simulation
     internal class Dock
     {
         public string Id { get; private set; }
-        private Queue<Truck> line;
-        public double TotalSales { get; private set; }
+        public Queue<Truck> line;
+        public double TotalSales { get; internal set; }
         public int TotalCrates { get; private set; }
         public int TimeInUse { get; private set; }
         public int TimeNotInUse {  get; private set; }
@@ -19,11 +19,12 @@ namespace Project_3___Warehouse_Simulation
         public Dock()
         {
             Id = string.Empty;
-            line = new Queue<Truck>() //The () were missing on these;
+            line = new Queue<Truck>(); //The () were missing on these;
             TotalSales = 0;
             TotalCrates = 0;
             TimeInUse = 0;
             TimeNotInUse = 0;
+            truckToUnload = new Truck();
         }
 
         public Dock(string id)
@@ -34,6 +35,7 @@ namespace Project_3___Warehouse_Simulation
             TotalCrates = 0;
             TimeInUse = 0;
             TimeNotInUse = 0;
+            truckToUnload = new Truck();
         }
 
         ///
@@ -51,9 +53,13 @@ namespace Project_3___Warehouse_Simulation
         /// Method for offloading truck from queue into active use in the dock
         /// </summary>
         /// <returns>A truck to be unloaded</returns>
-        public Truck SendOff()
+        public Truck? SendOff()
         {
-            return line.Dequeue();
+            if (line.Count > 0)
+            {
+                return line.Dequeue();
+            }
+            return null;
         }
     }
 }

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Warehouse warehouse = new Warehouse();
+            Warehouse warehouse = new Warehouse(2);
             warehouse.Run();
         }
     }
