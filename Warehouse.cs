@@ -77,13 +77,16 @@ namespace Project_3___Warehouse_Simulation
 
                     //When the truck is completely unloaded, it is immediately swapped with the next truck in line. (Queue)
                     //a.    One-time increment to unload the last item off the current truck
-                    Truck firstTruck = new Truck; 
-                    Truck secondTruck = new Truck; 
-
-                    firstTruck.UnloadTruck(); 
-                     //b.    Next-time increment to unload the first item off next truck.
-
-                    secondTruck.UnloadTruck(); 
+                    //b.    Next-time increment to unload the first item off next tru
+                    foreach (Truck in Line)
+                    {
+                        foreach (crate in Truck.Trailer)
+                          {
+                              Truck.Trailer.UnloadTruck();//unload 1 crate at a time from the truck trailer
+                              unloadTruckCount++;//Counting each item removed
+                          }
+                      totalNumTruck++; //Counting each truck
+                    } 
                 }
             }
 
