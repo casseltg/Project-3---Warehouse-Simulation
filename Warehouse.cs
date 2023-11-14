@@ -149,7 +149,11 @@ namespace Project_3___Warehouse_Simulation
             Console.WriteLine(report.ToString());
             WriteToLog(Log);
         }
-
+        //<summary>
+        // This method writes to a csv file called Log.csv
+        //</summary>
+        //<retur> no return
+        
         public static void WriteToLog(string crateLog)
         {
             using (StreamWriter wtr = new StreamWriter(@"..\..\..\Log.csv"))
