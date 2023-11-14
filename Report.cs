@@ -56,8 +56,8 @@ namespace Project_3___Warehouse_Simulation
                 totalTime += DockTimeUse[i];
             }
             report += $"\nThe average time any dock was in use was {totalTime / DockTimeUse.Count}" +
-                      $"\nThe total cost of operating all docks was ${totalTime * 100}" +
-                      $"\nThe total profit of the warehouse was ${TotalCratesValue - (totalTime * 100)}";
+                      $"\nThe total cost of operating all docks was ${DockTimeUse.Count * 48 * 100}" +
+                      $"\nThe total profit of the warehouse was ${TotalCratesValue - (DockTimeUse.Count * 48 * 100)}";
             return report;
         }
     }

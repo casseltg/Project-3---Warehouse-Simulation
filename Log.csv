@@ -1,45 +1,129 @@
-16,Steve,GillTrans,8483,169,A crate was unloaded but the truck still has more crates to unload.
-17,Steve,GillTrans,9436,396,A crate was unloaded but the truck still has more crates to unload.
-22,Steve,GillTrans,2624,84,A crate was unloaded but the truck still has more crates to unload.
-22,Steve,GillTrans,2624,84,A crate was unloaded but the truck still has more crates to unload.
-22,Bob,EHL,2289,193,A crate was unloaded but the truck still has more crates to unload.
-23,Steve,GillTrans,5410,172,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-23,Steve,GillTrans,5410,172,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-23,Bob,EHL,7717,424,A crate was unloaded but the truck still has more crates to unload.
-25,Vlorflumaax the Destroyer,GillTrans,5715,288,A crate was unloaded but the truck still has more crates to unload.
-25,Vlorflumaax the Destroyer,GillTrans,5715,288,A crate was unloaded but the truck still has more crates to unload.
-25,Bob,EHL,9772,301,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-25,Vlorflumaax the Destroyer,GillTrans,5715,288,A crate was unloaded but the truck still has more crates to unload.
-25,Bob,EHL,9772,301,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-25,Bob's Cousin,BreadEx,9336,57,A crate was unloaded but the truck still has more crates to unload.
-29,Vlorflumaax the Destroyer,GillTrans,1322,323,A crate was unloaded but the truck still has more crates to unload.
-29,Vlorflumaax the Destroyer,GillTrans,1322,323,A crate was unloaded but the truck still has more crates to unload.
-29,Bob's Cousin,XPORT,6821,115,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-29,Vlorflumaax the Destroyer,GillTrans,1322,323,A crate was unloaded but the truck still has more crates to unload.
-29,Bob's Cousin,XPORT,6821,115,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-29,Bob's Cousin,BreadEx,1416,436,A crate was unloaded but the truck still has more crates to unload.
-31,Vlorflumaax the Destroyer,GillTrans,7034,127,A crate was unloaded but the truck still has more crates to unload.
-31,Vlorflumaax the Destroyer,GillTrans,7034,127,A crate was unloaded but the truck still has more crates to unload.
-31,Bob,BUPS,9379,318,A crate was unloaded but the truck still has more crates to unload.
-31,Vlorflumaax the Destroyer,GillTrans,7034,127,A crate was unloaded but the truck still has more crates to unload.
-31,Bob,BUPS,9379,318,A crate was unloaded but the truck still has more crates to unload.
-31,Bob's Cousin,BreadEx,7328,70,A crate was unloaded but the truck still has more crates to unload.
-37,Vlorflumaax the Destroyer,GillTrans,6113,450,A crate was unloaded but the truck still has more crates to unload.
-37,Vlorflumaax the Destroyer,GillTrans,6113,450,A crate was unloaded but the truck still has more crates to unload.
-37,Bob,BUPS,9351,262,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-37,Vlorflumaax the Destroyer,GillTrans,6113,450,A crate was unloaded but the truck still has more crates to unload.
-37,Bob,BUPS,9351,262,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-37,Bob's Cousin,BreadEx,7233,355,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
-38,Vlorflumaax the Destroyer,GillTrans,4245,495,A crate was unloaded but the truck still has more crates to unload.
-38,Vlorflumaax the Destroyer,GillTrans,4245,495,A crate was unloaded but the truck still has more crates to unload.
-38,Lowry,EHL,5913,413,A crate was unloaded but the truck still has more crates to unload.
-38,Vlorflumaax the Destroyer,GillTrans,4245,495,A crate was unloaded but the truck still has more crates to unload.
-38,Lowry,EHL,5913,413,A crate was unloaded but the truck still has more crates to unload.
-38,Larry,EHL,5419,94,A crate was unloaded but the truck still has more crates to unload.
-39,Vlorflumaax the Destroyer,GillTrans,1752,77,A crate was unloaded but the truck still has more crates to unload.
-39,Vlorflumaax the Destroyer,GillTrans,1752,77,A crate was unloaded but the truck still has more crates to unload.
-39,Lowry,EHL,1557,291,A crate was unloaded but the truck still has more crates to unload.
-39,Vlorflumaax the Destroyer,GillTrans,1752,77,A crate was unloaded but the truck still has more crates to unload.
-39,Lowry,EHL,1557,291,A crate was unloaded but the truck still has more crates to unload.
-39,Larry,EHL,1669,404,A crate was unloaded but the truck still has more crates to unload.
+4,Lowry,EHL,7486,245,A crate was unloaded but the truck still has more crates to unload.
+8,Lowry,EHL,8864,224,A crate was unloaded but the truck still has more crates to unload.
+9,Lowry,EHL,5605,89,A crate was unloaded but the truck still has more crates to unload.
+9,Lowry,EHL,5605,89,A crate was unloaded but the truck still has more crates to unload.
+9,Cassandra,BUPS,7564,352,A crate was unloaded but the truck still has more crates to unload.
+10,Lowry,EHL,2668,345,A crate was unloaded but the truck still has more crates to unload.
+10,Lowry,EHL,2668,345,A crate was unloaded but the truck still has more crates to unload.
+10,Cassandra,BUPS,8177,141,A crate was unloaded but the truck still has more crates to unload.
+12,Lowry,EHL,2749,297,A crate was unloaded but the truck still has more crates to unload.
+12,Lowry,EHL,2749,297,A crate was unloaded but the truck still has more crates to unload.
+12,Cassandra,BUPS,5354,378,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+12,Lowry,EHL,2749,297,A crate was unloaded but the truck still has more crates to unload.
+12,Cassandra,BUPS,5354,378,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+12,Steve,EHL,3873,467,A crate was unloaded but the truck still has more crates to unload.
+13,Lowry,EHL,6785,400,A crate was unloaded but the truck still has more crates to unload.
+13,Lowry,EHL,6785,400,A crate was unloaded but the truck still has more crates to unload.
+13,Jebediah,BUPS,8102,182,A crate was unloaded but the truck still has more crates to unload.
+13,Lowry,EHL,6785,400,A crate was unloaded but the truck still has more crates to unload.
+13,Jebediah,BUPS,8102,182,A crate was unloaded but the truck still has more crates to unload.
+13,Steve,EHL,9990,178,A crate was unloaded but the truck still has more crates to unload.
+17,Lowry,EHL,1493,96,A crate was unloaded but the truck still has more crates to unload.
+17,Lowry,EHL,1493,96,A crate was unloaded but the truck still has more crates to unload.
+17,Jebediah,BUPS,7581,467,A crate was unloaded but the truck still has more crates to unload.
+17,Lowry,EHL,1493,96,A crate was unloaded but the truck still has more crates to unload.
+17,Jebediah,BUPS,7581,467,A crate was unloaded but the truck still has more crates to unload.
+17,Steve,EHL,1646,233,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Lowry,EHL,9200,91,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Lowry,EHL,9200,91,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Jebediah,BUPS,2898,251,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Lowry,EHL,9200,91,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Jebediah,BUPS,2898,251,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+18,Landry,XPORT,9558,160,A crate was unloaded but the truck still has more crates to unload.
+20,Bob's Cousin,BUPS,9869,467,A crate was unloaded but the truck still has more crates to unload.
+20,Bob's Cousin,BUPS,9869,467,A crate was unloaded but the truck still has more crates to unload.
+20,Gregor,EHL,8257,238,A crate was unloaded but the truck still has more crates to unload.
+20,Bob's Cousin,BUPS,9869,467,A crate was unloaded but the truck still has more crates to unload.
+20,Gregor,EHL,8257,238,A crate was unloaded but the truck still has more crates to unload.
+20,Landry,XPORT,1492,454,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+21,Bob's Cousin,BUPS,7468,443,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+21,Bob's Cousin,BUPS,7468,443,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+21,Gregor,EHL,4262,90,A crate was unloaded but the truck still has more crates to unload.
+21,Bob's Cousin,BUPS,7468,443,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+21,Gregor,EHL,4262,90,A crate was unloaded but the truck still has more crates to unload.
+21,Vlorflumaax the Destroyer,EHL,2847,72,A crate was unloaded but the truck still has more crates to unload.
+22,Cassandra,GillTrans,9173,141,A crate was unloaded but the truck still has more crates to unload.
+22,Cassandra,GillTrans,9173,141,A crate was unloaded but the truck still has more crates to unload.
+22,Gregor,EHL,3858,444,A crate was unloaded but the truck still has more crates to unload.
+22,Cassandra,GillTrans,9173,141,A crate was unloaded but the truck still has more crates to unload.
+22,Gregor,EHL,3858,444,A crate was unloaded but the truck still has more crates to unload.
+22,Vlorflumaax the Destroyer,EHL,3735,102,A crate was unloaded but the truck still has more crates to unload.
+24,Cassandra,GillTrans,2786,447,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+24,Cassandra,GillTrans,2786,447,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+24,Gregor,EHL,7557,86,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+24,Cassandra,GillTrans,2786,447,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+24,Gregor,EHL,7557,86,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+24,Vlorflumaax the Destroyer,EHL,7189,292,A crate was unloaded but the truck still has more crates to unload.
+25,Vlorflumaax the Destroyer,GillTrans,3609,348,A crate was unloaded but the truck still has more crates to unload.
+25,Vlorflumaax the Destroyer,GillTrans,3609,348,A crate was unloaded but the truck still has more crates to unload.
+25,Lowry,GillTrans,9633,373,A crate was unloaded but the truck still has more crates to unload.
+25,Vlorflumaax the Destroyer,GillTrans,3609,348,A crate was unloaded but the truck still has more crates to unload.
+25,Lowry,GillTrans,9633,373,A crate was unloaded but the truck still has more crates to unload.
+25,Vlorflumaax the Destroyer,EHL,1227,220,A crate was unloaded but the truck still has more crates to unload.
+26,Vlorflumaax the Destroyer,GillTrans,6266,406,A crate was unloaded but the truck still has more crates to unload.
+26,Vlorflumaax the Destroyer,GillTrans,6266,406,A crate was unloaded but the truck still has more crates to unload.
+26,Lowry,GillTrans,5114,241,A crate was unloaded but the truck still has more crates to unload.
+26,Vlorflumaax the Destroyer,GillTrans,6266,406,A crate was unloaded but the truck still has more crates to unload.
+26,Lowry,GillTrans,5114,241,A crate was unloaded but the truck still has more crates to unload.
+26,Vlorflumaax the Destroyer,EHL,5482,222,A crate was unloaded but the truck still has more crates to unload.
+27,Vlorflumaax the Destroyer,GillTrans,4297,121,A crate was unloaded but the truck still has more crates to unload.
+27,Vlorflumaax the Destroyer,GillTrans,4297,121,A crate was unloaded but the truck still has more crates to unload.
+27,Lowry,GillTrans,8215,393,A crate was unloaded but the truck still has more crates to unload.
+27,Vlorflumaax the Destroyer,GillTrans,4297,121,A crate was unloaded but the truck still has more crates to unload.
+27,Lowry,GillTrans,8215,393,A crate was unloaded but the truck still has more crates to unload.
+27,Vlorflumaax the Destroyer,EHL,3009,439,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Vlorflumaax the Destroyer,GillTrans,5639,136,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Vlorflumaax the Destroyer,GillTrans,5639,136,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Lowry,GillTrans,9578,431,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Vlorflumaax the Destroyer,GillTrans,5639,136,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Lowry,GillTrans,9578,431,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+28,Landry,BUPS,8659,480,A crate was unloaded but the truck still has more crates to unload.
+30,Bob's Cousin,GillTrans,6108,53,A crate was unloaded but the truck still has more crates to unload.
+30,Bob's Cousin,GillTrans,6108,53,A crate was unloaded but the truck still has more crates to unload.
+30,Steve,BreadEx,8204,102,A crate was unloaded but the truck still has more crates to unload.
+30,Bob's Cousin,GillTrans,6108,53,A crate was unloaded but the truck still has more crates to unload.
+30,Steve,BreadEx,8204,102,A crate was unloaded but the truck still has more crates to unload.
+30,Landry,BUPS,7525,326,A crate was unloaded but the truck still has more crates to unload.
+31,Bob's Cousin,GillTrans,5164,192,A crate was unloaded but the truck still has more crates to unload.
+31,Bob's Cousin,GillTrans,5164,192,A crate was unloaded but the truck still has more crates to unload.
+31,Steve,BreadEx,8936,402,A crate was unloaded but the truck still has more crates to unload.
+31,Bob's Cousin,GillTrans,5164,192,A crate was unloaded but the truck still has more crates to unload.
+31,Steve,BreadEx,8936,402,A crate was unloaded but the truck still has more crates to unload.
+31,Landry,BUPS,5013,484,A crate was unloaded but the truck still has more crates to unload.
+32,Bob's Cousin,GillTrans,8020,235,A crate was unloaded but the truck still has more crates to unload.
+32,Bob's Cousin,GillTrans,8020,235,A crate was unloaded but the truck still has more crates to unload.
+32,Steve,BreadEx,2606,319,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+32,Bob's Cousin,GillTrans,8020,235,A crate was unloaded but the truck still has more crates to unload.
+32,Steve,BreadEx,2606,319,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+32,Landry,BUPS,1444,145,A crate was unloaded but the truck still has more crates to unload.
+33,Bob's Cousin,GillTrans,5832,137,A crate was unloaded but the truck still has more crates to unload.
+33,Bob's Cousin,GillTrans,5832,137,A crate was unloaded but the truck still has more crates to unload.
+33,Larry,XPORT,8587,349,A crate was unloaded but the truck still has more crates to unload.
+33,Bob's Cousin,GillTrans,5832,137,A crate was unloaded but the truck still has more crates to unload.
+33,Larry,XPORT,8587,349,A crate was unloaded but the truck still has more crates to unload.
+33,Landry,BUPS,4098,242,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Bob's Cousin,GillTrans,9673,128,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Bob's Cousin,GillTrans,9673,128,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Larry,XPORT,4050,394,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Bob's Cousin,GillTrans,9673,128,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Larry,XPORT,4050,394,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+34,Lowry,EHL,7384,194,A crate was unloaded but the truck still has more crates to unload.
+35,Jebediah,BUPS,9869,210,A crate was unloaded but the truck still has more crates to unload.
+35,Jebediah,BUPS,9869,210,A crate was unloaded but the truck still has more crates to unload.
+35,Vlorflumaax the Destroyer,EHL,1805,124,A crate was unloaded but the truck still has more crates to unload.
+35,Jebediah,BUPS,9869,210,A crate was unloaded but the truck still has more crates to unload.
+35,Vlorflumaax the Destroyer,EHL,1805,124,A crate was unloaded but the truck still has more crates to unload.
+35,Lowry,EHL,5317,340,A crate was unloaded but the truck still has more crates to unload.
+36,Jebediah,BUPS,7473,147,A crate was unloaded but the truck still has more crates to unload.
+36,Jebediah,BUPS,7473,147,A crate was unloaded but the truck still has more crates to unload.
+36,Vlorflumaax the Destroyer,EHL,9403,157,A crate was unloaded but the truck still has more crates to unload.
+36,Jebediah,BUPS,7473,147,A crate was unloaded but the truck still has more crates to unload.
+36,Vlorflumaax the Destroyer,EHL,9403,157,A crate was unloaded but the truck still has more crates to unload.
+36,Lowry,EHL,5301,438,A crate was unloaded but the truck still has more crates to unload.
+39,Jebediah,BUPS,8042,431,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+39,Jebediah,BUPS,8042,431,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+39,Vlorflumaax the Destroyer,EHL,3074,219,A crate was unloaded but the truck still has more crates to unload.
+39,Jebediah,BUPS,8042,431,A crate was unloaded, and the truck has no more crates to unload, and another truck is already in the Dock.
+39,Vlorflumaax the Destroyer,EHL,3074,219,A crate was unloaded but the truck still has more crates to unload.
+39,Lowry,EHL,1215,366,A crate was unloaded but the truck still has more crates to unload.
 

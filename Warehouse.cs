@@ -53,7 +53,7 @@ namespace Project_3___Warehouse_Simulation
                 {
                     probabilityTruckArrives = randy.Next(1, 50 - timeIntervalsPassed);
                 }
-                if (randy.Next(24) <= probabilityTruckArrives)
+                if (randy.Next(24) <= probabilityTruckArrives * 2)
                 {
                     Entrance.Enqueue(new Truck());
                 }
