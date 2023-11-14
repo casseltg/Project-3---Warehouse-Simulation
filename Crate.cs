@@ -22,6 +22,12 @@ namespace Project_3___Warehouse_Simulation
         public string ID {get; private set;}     
         public double Price {get; private set;}
 
+        //<summary>
+        // Crate class where number of crates is radomly selected. 
+        // Additionally, ID for each individual crate is selected as a string
+        // Lastly, price of each crate is randomly selected. 
+        //</summary>
+
         public Crate()
         {
             Random randy = new Random();
