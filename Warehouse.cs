@@ -37,7 +37,7 @@ namespace Project_3___Warehouse_Simulation
         public void Run()
         {
             //A loaded truck arrives at the Warehouse with a random # of cargo crates in a random time interval between increments of 1 to 48.
-
+            Report report = new Report(Docks.Count);
             Random randy = new Random();
             for (int timeIntervalsPassed = 1; timeIntervalsPassed <= 48; timeIntervalsPassed++)
             {
@@ -76,15 +76,22 @@ namespace Project_3___Warehouse_Simulation
 
                     //Once at the loading dock, one of a truck’s crates is unloaded at every time increment.
                     Truck result;
-                    foreach (Dock dock in Docks)
+                    for (int i = 0; i < Docks.Count; i++)
                     {
-                        if (dock.truckToUnload.Trailer.Count != 0)
+                        if (Docks[i].line.Count > report.LongestLine)
                         {
-                            dock.TotalSales += dock.truckToUnload.UnloadTruck().Price;
+                            report.LongestLine = Docks[i].line.Count;
                         }
-                        else if (dock.line.TryPeek(out result))
+                        if (Docks[i].truckToUnload.Trailer.Count != 0)
                         {
-                            dock.truckToUnload = dock.SendOff();
+                            Docks[i].TotalSales += Docks[i].truckToUnload.UnloadTruck().Price;
+                            report.TotalCratesUnloaded++;
+                            report.DockTimeUse[i]++;
+                        }
+                        else if (Docks[i].line.TryPeek(out result))
+                        {
+                            Docks[i].truckToUnload = Docks[i].SendOff();
+                            report.TotalTrucksProcessed++;
                         }
 
 
@@ -93,7 +100,14 @@ namespace Project_3___Warehouse_Simulation
                         //b.    Next-time increment to unload the first item off next truck
                     }
                 }
-            }    
+            }
+            foreach (Dock dock in Docks)
+            {
+                report.TotalCratesValue += dock.TotalSales;
+            }
+            report.AverageCrateValue = report.TotalCratesValue / report.TotalCratesUnloaded;
+            report.AverageTrailerValue = report.TotalCratesValue / report.TotalTrucksProcessed;
+            Console.WriteLine(report.ToString());
         }
     }
 }

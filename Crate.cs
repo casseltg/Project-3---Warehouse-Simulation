@@ -15,7 +15,7 @@ namespace Project_3___Warehouse_Simulation
         {
             Random randy = new Random();
             ID = randy.Next(1000, 10000).ToString();
-            Price = randy.Next(100, 1000);
+            Price = randy.Next(50, 501);
         }
     }
 }

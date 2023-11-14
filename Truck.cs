@@ -38,8 +38,8 @@ namespace Project_3___Warehouse_Simulation
                 "GillTrans"
             };
             DeliveryCompany = deliveryCompany[randy.Next(5)];
-            Trailer = new Stack<Crate>(randy.Next(1, 10));
-            for (int i = 0; i < Trailer.Count; i++)
+            Trailer = new Stack<Crate>();
+            for (int i = 0; i < randy.Next(1, 10); i++)
             {
                 Trailer.Push(new Crate());
             }
