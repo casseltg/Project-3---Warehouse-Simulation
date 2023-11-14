@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 //
-// Author: Derek Depew, depewdj@mail.etsu.edu
-// Author: Hope Grayson,casseltg@mail.etsu.edu
+// Author: Derek Depew, depewdj@etsu.edu
+// Author: Hope Grayson,casseltg@etsu.edu
 // Author: Kevin Davis, daviskl2@etsu.edu
 // Author: Venkata Sireesha Dulam,dulamv@etsu.edu
 // Course: CSCI-2210-001 - Data Structures
