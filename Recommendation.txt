@@ -1,3 +1,5 @@
 	Our simulation has found that the optimal number of docks to operate is 2 docks. The amount of traffic projected necessitates at least a pair of docks as a single dock has difficulty processing each truck. 
-An increased number of docks allows the processing of more trucks, but becomes riskier as returns diminish beyond 2 docks, and the operation is not profitable beyond 4. A single dock will nearly always be profitable, but lacks the potential for great returns. 
-3 or 4 docks have the potential to process many trucks on a high-traffic shift. Between these extremes, a pair of operating docks offers a balance between risk and reward, and is therefore the best choice.
+An increased number of docks allows the processing of more trucks, but becomes riskier as returns diminish beyond 2 docks, and
+the operation is rarely profitable beyond 4. A single dock will nearly always be profitable, but lacks the potential for great returns. 
+3 or 4 docks have the potential to process many trucks on a high-traffic shift. Between these extremes, a pair of operating
+docks offers a balance between risk and reward, and is therefore the best choice.
