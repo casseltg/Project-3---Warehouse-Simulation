@@ -37,7 +37,12 @@ namespace Project_3___Warehouse_Simulation
             TimeNotInUse = 0;
             truckToUnload = null;
         }
-
+        //<summary>
+        // Creates an indidividual dock
+        // with ID, line, TotalSales, TotalCrates, 
+        // TimeInUse, TimeNotInUse, and TrucktoUnloak
+        // Sets an individual dock to be empty
+        //</summary 
         public Dock(string id)
         {
             Id = id;
