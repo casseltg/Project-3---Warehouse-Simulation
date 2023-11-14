@@ -56,6 +56,10 @@ namespace Project_3___Warehouse_Simulation
                 Trailer.Push(new Crate());
             }
         }
+        //<summary>
+        //Loads a crate to the truck object
+        //</summary>
+        //no <return>
 
         public void LoadTruck(Crate crate)
         {
