@@ -24,7 +24,7 @@ namespace Project_3___Warehouse_Simulation
             TotalCrates = 0;
             TimeInUse = 0;
             TimeNotInUse = 0;
-            truckToUnload = new Truck();
+            truckToUnload = null;
         }
 
         public Dock(string id)
@@ -35,7 +35,7 @@ namespace Project_3___Warehouse_Simulation
             TotalCrates = 0;
             TimeInUse = 0;
             TimeNotInUse = 0;
-            truckToUnload = new Truck();
+            truckToUnload = null;
         }
 
         ///

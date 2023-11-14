@@ -50,14 +50,14 @@ namespace Project_3___Warehouse_Simulation
             for (int i = 0; i < DockTimeUse.Count; i++)
             {
                 double dockTimeUseDouble = DockTimeUse[i];
-                report += $"\nDock {i} was in use for {DockTimeUse[i]} time increments" +
-                          $"\nDock {i} was not in use for {48 - DockTimeUse[i]} time increments" +
-                          $"\nDock {i} was open for {Math.Round(dockTimeUseDouble / 48d * 100, 2)}% of the time increments";
+                report += $"\nDock {i + 1} was in use for {DockTimeUse[i]} time increments" +
+                          $"\nDock {i + 1} was not in use for {48 - DockTimeUse[i]} time increments" +
+                          $"\nDock {i + 1} was open for {Math.Round(dockTimeUseDouble / 48d * 100, 2)}% of the time increments";
                 totalTime += DockTimeUse[i];
             }
             report += $"\nThe average time any dock was in use was {totalTime / DockTimeUse.Count}" +
                       $"\nThe total cost of operating all docks was ${totalTime * 100}" +
-                      $"\nThe total revenue of the warehouse was ${TotalCratesValue - (totalTime * 100)}";
+                      $"\nThe total profit of the warehouse was ${TotalCratesValue - (totalTime * 100)}";
             return report;
         }
     }

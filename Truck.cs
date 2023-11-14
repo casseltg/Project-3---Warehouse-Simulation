@@ -39,7 +39,7 @@ namespace Project_3___Warehouse_Simulation
             };
             DeliveryCompany = deliveryCompany[randy.Next(5)];
             Trailer = new Stack<Crate>();
-            for (int i = 0; i < randy.Next(1, 10); i++)
+            for (int i = 0; i < randy.Next(1, 11); i++)
             {
                 Trailer.Push(new Crate());
             }
